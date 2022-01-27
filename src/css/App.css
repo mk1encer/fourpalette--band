@@ -17,6 +17,13 @@
   margin: 15px;
   font-size: x-large;
 }
+#eachmenu a {
+  text-decoration: none;
+  color: black;
+}
+.active {
+  color: gray;
+}
 #content {
   display: flex;
   align-items: center;
