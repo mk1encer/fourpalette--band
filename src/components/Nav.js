@@ -4,13 +4,10 @@ import logo from "./images/logo.png";
 
 const Nav = () => {
   return (
-    <div>
-      <div id="head">
-        <div id="header">
-          <div id="header-logo">
-            <img id="logo" src={logo} />
-          </div>
-          <Nav />
+    <div className="init">
+      <div id="header">
+        <div id="header-logo">
+          <img id="logo" src={logo} alt="logo" />
         </div>
       </div>
       <div id="navbar">

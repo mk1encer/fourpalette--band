@@ -1,12 +1,12 @@
-#head {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 1rem;
+* {
+  margin: 0;
+  padding: 0;
 }
-#header {
-  width: 70%;
+.init {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px 0;
 }
 #nav {
   display: flex;
@@ -24,18 +24,43 @@
 .active {
   color: gray;
 }
-#content {
+.outer {
+  position: relative;
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: center;
+  width: 50%;
+  height: 60%;
+  margin-left: 170px;
 }
-
-#imgcontent {
-  width: 70%;
-  height: 70%;
+#item {
+  align-items: center;
+  justify-content: space-evenly;
 }
-
+.inner {
+  position: absolute;
+  width: 85%;
+  height: 80%;
+  padding-left: 40px;
+  padding-top: 60px;
+}
+.outer-image {
+  width: 100%;
+  height: 100%;
+}
+.inner-image {
+  margin: -35px;
+}
+.inner-image:hover {
+  transform: scale(1.1);
+}
 #logo {
   height: 5.5rem;
+}
+.about {
+  display: flex;
+}
+.footer {
+  margin: 5px;
+  text-align: center;
 }
